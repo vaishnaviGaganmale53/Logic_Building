@@ -1,0 +1,36 @@
+
+#include"Header.h" 
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// functionName   :  Addition
+// Input          :  Interger,Interger
+// Output         :  Interger
+// Description    :  Perform addition
+// Date           :  09/10/2026 --> updated on(if code updated)
+// Author         :  Vaishnavi Ashok Gaganmale.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+int addition(
+              int iNo1,       //first input
+              int iNo2        //secand input
+            )
+{
+    int iAns = 0;
+
+    iAns = iNo1 + iNo2;         //// Business logic
+
+    return iAns;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Entry point of the application
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// int main()
+// {
+//                            //EXIT_SUCCESS lihnyasathi #include<stdlib.h> hi header file use keli jate
+// }

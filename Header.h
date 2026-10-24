@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include<stdlib.h>
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// functionName   :  Addition
+// Input          :  Interger,Interger
+// Output         :  Interger
+// Description    :  Perform addition
+// Date           :  09/10/2026 --> updated on(if code updated)
+// Author         :  Vaishnavi Ashok Gaganmale.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+int addition(int,int);

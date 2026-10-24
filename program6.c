@@ -1,0 +1,69 @@
+/*
+Step 1: understand problem stetement
+Step 2: Write the algorithm
+Step 3:Decide the programming language
+Step 4:Write the program
+Step 5:Test the program
+*/
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Step 1: understand problem stetement
+//         user is ging to enter any two interger and
+//         we have to perform addition
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Step 2: Write the algorithm
+//          START
+//             Accept first Number as No1
+//             Accept second Number as No1
+//             Create variable as ANS to store the result
+//             perform the addition and store into ANS
+//             Display result from ANS
+//           END
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Step 3:Decide the programming language
+//        we select c programming
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Step 4:Write the program
+// code with all coding convension
+// taking input from user
+
+#include <stdio.h>
+
+int addition(int iNo1, int iNo2)
+{
+    int iAns = 0;
+    iAns = iNo1 + iNo2; //// Business logic
+    return iAns;
+}
+
+int main()
+{
+    int ivalue1 = 0, ivalue2 = 0, iresult = 0;
+
+    printf("Enter first nuber:\n");
+    scanf("%d", &ivalue1); //
+
+    printf("Enter secand nuber:\n");
+    scanf("%d", &ivalue2);
+
+    iresult = addition(ivalue1, ivalue2); // Business logic
+
+    printf("Addition is : %d\n", iresult);
+
+    return 0; // return o indicate success
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
